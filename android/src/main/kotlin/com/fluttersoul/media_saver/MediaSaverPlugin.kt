@@ -48,19 +48,4 @@ class MediaSaverPlugin: FlutterPlugin, MethodCallHandler {
   override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
     channel.setMethodCallHandler(null)
   }
-  override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-    activity = binding.activity
-  }
-
-  override fun onDetachedFromActivityForConfigChanges() {
-    activity = null
-  }
-
-  override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
-    activity = binding.activity
-  }
-
-  override fun onDetachedFromActivity() {
-    activity = null
-  }
 }
