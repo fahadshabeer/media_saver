@@ -1,7 +1,7 @@
-name: media_saver
-description: "A new Flutter project."
+name: media_saver_plus
+description: "Flutter plugin that allows you to save videos and images in android gallery"
 version: 0.0.1
-homepage:
+homepage: https://github.com/fahadshabeer/media_saver
 
 environment:
   sdk: ^3.5.3
@@ -37,8 +37,8 @@ flutter:
       android:
         package: com.fluttersoul.media_saver
         pluginClass: MediaSaverPlugin
-      ios:
-        pluginClass: MediaSaverPlugin
+#      ios:
+#        pluginClass: MediaSaverPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

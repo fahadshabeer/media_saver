@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:media_saver/media_saver.dart';
+import 'package:media_saver_plus/media_saver_plus.dart';
 
 void main() {
   runApp(const MyApp());

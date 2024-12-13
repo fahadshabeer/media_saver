@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  media_saver:
+  media_saver_plus:
     # When depending on this package from a real application you should use:
     #   media_saver: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
